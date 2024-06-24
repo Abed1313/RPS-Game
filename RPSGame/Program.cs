@@ -9,7 +9,7 @@
                 Player player = new Player("Player");
                 Player ai = new Player("AI");
 
-                RPSGame game = new RPSGame(player , ai);
+                RPSGamee game = new RPSGamee(player , ai);
                 game.PlayGAme();
             }
             catch (Exception ex)

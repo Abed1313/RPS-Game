@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace RPSGame
 {
-    public class RPSGame
+    public class RPSGamee
     {
         private Player player;
         private Player ai;
         private Random random;
 
-        public RPSGame(Player player, Player ai)
+        public RPSGamee(Player player, Player ai)
         {
             this.player = player;
             this.ai = ai;
@@ -64,7 +64,7 @@ namespace RPSGame
             return moves[index];
         }
 
-        private int CompareMoves(string playerMove , string aiMove)
+        public int CompareMoves(string playerMove , string aiMove)
         {
             if (playerMove == aiMove)
             {
